@@ -1,0 +1,355 @@
+
+.contenedor1{
+    width: 95%;
+    margin: 20px auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.fotosproducto{
+    width: 35vw;
+    height: 80vh;
+    margin: 20px;  
+    box-sizing: border-box;
+    display: flex;
+}
+
+.fotosmini{
+    width: 30%;
+    height: 100%;
+}
+
+.fotosmini div{
+    width: 80%;
+    height: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px auto;
+}
+
+.minifoto1{
+    background-image: url(../assets/img/imgproducto1.jpg);
+    background-position-y: center;
+    background-attachment: local;
+}
+
+.minifoto2{
+    background-image: url(../assets/img/imgproducto2.jpg);
+    background-position-y: center;
+}
+
+.minifoto3{
+    background-image: url(../assets/img/imgproducto3.jpg);
+    background-position-y: center;
+}
+
+.fotogrande{
+    margin: 5px 0;
+    width: 80%;
+    height: 92%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/img/immgproductogrande.jpg);
+}
+
+.detalleProductos{
+    width: 40%;
+    height: 73vh;
+    margin-top: 26px;
+}
+
+.botonCarrito{
+    box-shadow: 1px 1px 2px black;
+    width: 20vw;
+    height: 7vh;
+    font-family: 'Lato';
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 2%;
+    border: 2px outset #BF6A4B;
+    background-color: #BF6A4B;
+    color: white;
+    cursor: pointer;
+}
+
+.botonCarrito:hover{
+    background-color: #a69a85;
+    border: 2px outset #a69a85;
+}
+
+.titulos h1{
+    margin-top: 60px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.titulos h2{
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.caracteristicaProducto{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+
+.labelTalla{
+    border: 2px outset #BF6A4B;
+    background-color: #BF6A4B;
+    color: white;
+    text-shadow: 2px 2px 3px  black;
+    padding: 0px 38px 0 38px;
+}
+
+.labelColor{
+    border: 2px outset #BF6A4B;
+    background-color: #BF6A4B;
+    color: white;
+    text-shadow: 2px 2px 3px  black;
+    padding: 0 35px 0 35px;
+}
+
+.labelCantidad{
+    border: 2px outset #BF6A4B;
+    background-color: #BF6A4B;
+    color: white;
+    text-shadow: 2px 2px 3px  black;
+    padding: 0 20px 0 13px;
+}
+
+select, input{
+    border: 2px outset #BF6A4B;
+    width: 200px;
+    height: 29px;   
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+
+.comprarProducto{
+    width: 25.5vw;
+    height: 8vh;
+    margin: 25px 0;
+    background-color: #26150F;
+    box-shadow: 2px 2px 2px #26150F;
+    border: none;
+    border-radius: 2%;
+    color: white;
+    font-family: 'Lato';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.comprarProducto:hover{
+    background-color: #a69a85;
+}
+
+.informacion{
+    width: 95%;
+    height: 33vh;
+    margin: 0 auto;
+    font-family: 'Lato';
+}
+
+.informacion h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 50px;
+}
+
+.informacion p{
+    width: 90%;
+    margin: 15px 50px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+aside{
+    width: 95%;
+    margin: 20px auto;
+    height: 113px;
+    background-color: #A69A85;
+    box-shadow: 2px 2px 2px #26150F;
+    align-items: center;
+}
+
+.vendedor{
+    font-size: 30px;
+    font-family: 'Lato';
+    margin: 0 78px;
+    text-transform: uppercase;
+}
+
+.infoVendedor{
+    width: 88%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fotoVendedor{
+    box-shadow: 2px 2px 3px #26150F;
+    width: 20%;
+    height: 90%;
+    margin: 15px;
+    background-image: url(../assets/img/fotovendedor.jpg);
+    background-size: cover;
+}
+
+.caracteristicasVendedor{
+    width: 35%;
+    height: 80%;
+    margin: 30px;
+    line-height: 60px;
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+.caracteristicasVendedor h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.reseñasVendedor{
+    width: 35%;
+    height: 80%;
+    margin: 30px 5px;
+    font-family: 'Lato';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reseñasVendedor h1{
+    line-height: 80px;
+    font-size: 30px;
+}
+
+.reseñasVendedor h2{
+    line-height: 50px;
+    font-size: 60px;
+}
+
+.reseñasVendedor i{
+    line-height: 50px;
+    font-size: 40px;
+    color: #FFD445;
+}
+
+.reseñasVendedor h3{
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.tituloCom{
+    line-height: 80px;
+    font-family: 'Lato';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.comentarios{
+    width: 75%;
+    margin: 0 auto ;
+    height: 32vh;
+    display: flex;
+    background-color: #A69A85;
+    box-shadow: 2px 2px 3px #26150F;
+}
+
+.comentario1{
+    display: inline-flex;
+}
+
+.fotoUsuario{
+    box-shadow: 2px 2px 3px #26150F;
+    width: 10%;
+    height: 50%;
+    margin: 60px 15px 40px 40px;
+    border-radius: 100%;
+    background-image: url(../assets/img/fotousuario.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.infoUsuario{
+    width: 70%;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-family: 'Lato';
+}
+
+.infoUsuario h1{
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.infoUsuario p{
+    font-size: 18px;
+    text-transform: initial;
+    text-align: left;
+    padding: 8px;
+    border-radius: 30px 30px 30px 0;
+    background-color: #ffffffb8;
+    border: 2px outset #A69A85;
+}
+
+.ingresarCom{
+    border: 2px outset #A69A85;
+    position: relative;
+    width: 75%;
+    height: 10vh;
+    margin: 0 auto 30px;
+    box-shadow: 2px 2px 3px #26150F;
+    display: flex;
+}
+
+.fotoUsuario2{
+    box-shadow: 2px 2px 4px #26150F;
+    width: 9vh;
+    height: 90%;
+    margin: 3px 15px 40px 65px;
+    border-radius: 100%;
+    background-image: url(../assets/img/fotousuario2.jpg);
+    background-size: cover;
+
+}
+
+.ingresarComentarios{
+    margin-top: 15px;
+    width: 55vw;
+    border: none;
+    border: 2px outset #A69A85;
+    box-shadow: 1px 1px 2px #26150F;
+}
+
+.enviar{
+    border: 2px outset #BF6A4B;
+    background-color: #BF6A4B;
+    width: 30px;
+    height: 4.7vh;
+    margin: 15px 5px;
+    justify-content: center;
+    color: white;
+    box-shadow: 1px 1px 2px #26150F;
+}
+
+.enviar i{
+    font-size: 25px;
+}
+
+.enviar:hover{
+    border: 2px outset #a69a85;
+    background-color: #A69A85;
+}

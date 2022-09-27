@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+main > h1{
+    line-height: 100px;
+    text-align: center;
+    font-size: xxx-large;
+}
+.inputCont{
+    margin: 0 auto;
+    margin-left: 5%;
+}
+.inputCont > input{
+    width: 80%;
+    margin: 20px 0;
+    padding: 10px 2%;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #BF6A4B;
+}
+.inputCont > input:focus{
+    outline: #BF6A4B;
+}
+.searchMessage{
+    border: none;
+    border-radius: 15px;
+    padding: 12px 20px;
+    background: #D99C52;
+    align-items: center;
+}
+.searchMessage:active{
+    color: white;
+}
+.searchMessage:hover{
+    padding: 15px 23px;
+}
+.messageCont{
+    margin: 2% 3%;
+    display: flex;
+    overflow: hidden;
+    border: 4px outset #D99C52;
+    border-radius: 15px;
+}
+.chats{
+    padding: 2%;
+    width: 30%;
+}
+.chatBox{
+    background-color: #a69a8530;
+    padding: 3%;
+    margin: 5% auto;
+    border-radius: 5px;
+}
+.userIcon{
+    padding: 3%;
+    text-align: center;
+    font-size: xxx-large;
+    width: 70px;
+    height: 70px;
+    background-color: #D99C52;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.chatBox > .userIcon, .infoChat{
+    display: inline-block;
+}
+.chatBox > .infoChat{
+    padding-left: 2%;
+}
+.chatCont{
+    width: 70%;
+}
+.messages{
+    height: 85%;
+    background-color: #D99C52;
+}
+.inputMess{
+    width: 100%;
+    height: 15%;
+    align-items: flex-end;
+    padding: 1% 2%;
+}
+.inputMess > input, button{
+     display: inline-block;
+}
+.inputMess > input{
+    width: 90%;
+    margin: 20px 0;
+    padding: 10px 2%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #BF6A4B;
+    background-color: #a69a8530;
+}
+.inputMess > button{
+    color: #BF6A4B;
+    background-color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.sendIcon, .attachIcon{
+    font-size: x-large;
+}

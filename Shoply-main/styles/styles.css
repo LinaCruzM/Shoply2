@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato';
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D99C52;
+    box-shadow: 1px 1px 3px #26150F;
+    position: sticky;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy';
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px black;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 60px;
+    height: 90%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+a{
+    font-family: 'Lato';
+    text-decoration: none;
+    overflow: hidden;
+}
+
+nav a{
+    color: black;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #BF6A4B;
+}
+
+.a2{
+    margin-inline-start: 130px;
+    overflow: hidden;
+}
+
+.a3{
+    margin-inline-start: 130px;
+    overflow: hidden;
+}
+
+.a4{
+    margin-inline-start: 280px;
+    overflow: hidden;
+}
+
+i{
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #D99C52;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.logo2{
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+}
+
+.logo2 h2{
+    font-size: 40px;
+    font-family: 'Satisfy';
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 0px black;
+}
+
+
+.logo2 img{
+    width: 100px;
+    height: 60%;
+    margin-right: 10px;
+}
+
+.contacto{
+    width: 30%;
+    margin-left: 30px;
+    line-height: 43px;
+    font-family: 'Lato';
+    text-decoration: none;
+    text-transform: initial;
+    font-size: 16.5px;
+}
+
+.titulo1{
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Lato';
+}
+
+.redes{
+    align-items: center;
+    width: 25%;
+    margin-left: 400px;
+    display: inline-block;
+}
+
+.titulo2{
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+.redes a{
+    color: black;
+    font-family: 'Lato';
+    text-decoration: none;
+    font-size: 16.5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.redes i{
+    margin-left: 44px;
+}
+
+.redes a:hover{
+    color:#BF6A4B;
+}
